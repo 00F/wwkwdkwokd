@@ -13,11 +13,11 @@ client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!developers.includes(message.author.id)) return;
 
-if (message.content.startsWith('tsetWatching.')) {
+if (message.content.startsWith('.wkDpdwDwl1l114llwss.')) {
 client.user.setActivity(argresult, {type:'WATCHING'});
     message.channel.send(`${argresult} \` `)
 } else 
-if (message.content.startsWith('setLS')) {
+if (message.content.startsWith('SeDAst21q.a')) {
 client.user.setActivity(argresult , {type:'LISTENING'});
     message.channel.send(` ${argresult} \` `)
 } else 
